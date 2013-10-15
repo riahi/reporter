@@ -1,0 +1,46 @@
+/* style.css - basic styles for the project
+
+*/
+
+pre {
+	color: navy;
+}
+
+nav {
+	color: green;
+	float: left;
+	width: 160px;
+}
+
+article {
+	color: navy;
+	margin-left: 200px;
+	display: block;
+}
+
+header h1 {
+	font-size: 16pt;
+	color: navy;
+	font-weight: normal;
+}
+
+.templatebox {
+	width: 500px;
+	white-space: pre-wrap;
+}
+
+#LHS_title {
+	float: left;
+}
+
+#RHS_title {
+	float: right;
+}
+
+#Top_title {
+	text-align: center;
+}
+
+#buttons {
+	text-align: center;
+}

@@ -61,7 +61,7 @@ echo "<pre>"; print_r($array); echo "</pre>";
 // ************************************************
 // Process and put into Database
 // ************************************************
-// loops through array and parses.  Ignores last array slot.
+// loops through array and parses.
 $title = '';
 $template = '';
 for($i = 0; $i < count($array); $i++) {
