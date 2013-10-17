@@ -60,6 +60,14 @@ $db->close();
 
 	<nav>
 		<button>Button</button>
+		<form>
+			<input type="radio" name="indication_status" value="Approved" />
+			<label for="indication_status">Approved</label>
+			<input type="radio" name="indication_status" value="Disapproved" />
+			<label for="indication_status">Disapproved</label>
+			<input type="radio" name="indication_status" value="Needs Work" />
+			<label for="indication_status">Needs Work</label>
+		</form>
 	</nav>
 
 	<article>
